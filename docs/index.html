@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Sparculator</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #334155;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 2rem 1rem;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      background-color: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem 2.25rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    }
+    h1 {
+      margin-top: 0;
+      font-size: 1.85rem;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.75rem;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-bottom: 1.75rem;
+    }
+    h2 {
+      margin-top: 1.75rem;
+      font-size: 1.2rem;
+      color: var(--accent);
+    }
+    ul {
+      padding-left: 1.35rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    code {
+      background-color: rgba(15, 23, 42, 0.75);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.9em;
+      color: #e2e8f0;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 2.25rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy for Sparculator</h1>
+    <div class="meta">
+      <strong>Effective Date:</strong> November 25, 2026<br>
+      <strong>Developer:</strong> gigDriverApps<br>
+      <strong>Application Package:</strong> <code>com.gigdriverapps.sparculator</code>
+    </div>
+
+    <h2>1. Overview</h2>
+    <p>
+      Sparculator ("the App") is a delivery wait-time and hourly-rate calculator built for independent gig delivery drivers.
+      Your privacy is important to us. <strong>Sparculator does not collect, transmit, sell, or share any personal or device data with external servers or third parties.</strong>
+    </p>
+
+    <h2>2. Data Stored Locally on Your Device</h2>
+    <p>
+      To provide core functionality—including syncing your active countdown timer and rate inputs between your phone and Android Auto—the App saves configuration and session state strictly in local, app-scoped storage on your device:
+    </p>
+    <ul>
+      <li><strong>Calculation Inputs:</strong> Offer pay, target hourly rate, estimated trip duration, wait pay rate, and grace period settings.</li>
+      <li><strong>Timer State:</strong> Active timer start time, target expiration timestamp, and remaining duration so your countdown continues accurately in the background and on your car display.</li>
+    </ul>
+    <p>
+      All stored data remains exclusively on your device and is permanently removed when you clear the App's storage or uninstall the App.
+    </p>
+
+    <h2>3. Android Permissions Used</h2>
+    <p>Sparculator requests only the minimum system permissions required to operate your wait-time countdown and alerts:</p>
+    <ul>
+      <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>) &amp; Full-Screen Intent (<code>USE_FULL_SCREEN_INTENT</code>):</strong> Displays your active countdown and walk-away deadline alert on your phone and Android Auto screen.</li>
+      <li><strong>Vibration (<code>VIBRATE</code>) &amp; Wake Lock (<code>WAKE_LOCK</code>):</strong> Delivers tactile vibration alerts when your wait-time deadline expires while the device screen is locked or off.</li>
+      <li><strong>Foreground Service (<code>FOREGROUND_SERVICE</code> / <code>FOREGROUND_SERVICE_SPECIAL_USE</code>):</strong> Keeps your user-initiated wait timer accurate while switching apps or driving.</li>
+    </ul>
+
+    <h2>4. Third-Party Services &amp; Analytics</h2>
+    <p>
+      Sparculator contains <strong>no</strong> advertising SDKs, <strong>no</strong> behavioral analytics or telemetry libraries, and <strong>no</strong> external cloud accounts.
+    </p>
+
+    <h2>5. Children's Privacy</h2>
+    <p>
+      Sparculator is designed for adult gig-economy drivers and is not directed toward children under the age of 13.
+    </p>
+
+    <h2>6. Changes to This Policy</h2>
+    <p>
+      We may update this Privacy Policy from time to time. Any revisions will be posted on this page with an updated effective date.
+    </p>
+
+    <h2>7. Contact Us</h2>
+    <p>
+      If you have any questions about this Privacy Policy or Sparculator's data practices, please contact the developer at:<br>
+      <strong>Email:</strong> <a href="mailto:gigdriverapps@bstivers.dev">gigdriverapps@bstivers.dev</a>
+    </p>
+
+    <footer>
+      &copy; 2026 gigDriverApps. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
